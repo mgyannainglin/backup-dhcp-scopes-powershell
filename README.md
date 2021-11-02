@@ -3,7 +3,7 @@
 
 1. Prepare the backup powershell script file. (You can use and reference powershell file from [here](./backup-dhcp-scopes.ps1))
 
-2. Prepare the delete older 90 days powershell script file. (You can use and reference powershare file from [here](./delete-dhcp-scopes-auto-90days.ps1))
+2. Prepare the delete older 90 days powershell script file. (You can use and reference powershell file from [here](./delete-dhcp-scopes-auto-90days.ps1))
 
 3. Create service account and grant permission for Windows Task Scheduler.
     * Create sevice account
@@ -41,3 +41,5 @@
 ## Auto Clean after 90 days backup
 
 Please do the above same way with dhcp scope backup taks to create new Task scheduler for auto clean after 90 days backup files.
+
+reference-url (https://docs.microsoft.com/en-us/powershell/module/dhcpserver/backup-dhcpserver?view=windowsserver2019-ps)
