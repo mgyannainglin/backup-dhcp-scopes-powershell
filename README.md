@@ -1,9 +1,9 @@
 # backup-dhcp-scopes-powershell
-## Step by step buckup and delete Microsoft DHCP server scopes with powershell from Windows Task Scheduler
+## Step by step backup and delete Microsoft DHCP server scopes with powershell from Windows Task Scheduler
 
-1. Prepare the backup powershell script file. (You can use and refrence powershare file from [here](./backup-dhcp-scopes.ps1))
+1. Prepare the backup powershell script file. (You can use and reference powershell file from [here](./backup-dhcp-scopes.ps1))
 
-2. Prepare the delete older 90 days powershell script file. (You can use and refrence powershare file from [here](./delete-dhcp-scopes-auto-90days.ps1))
+2. Prepare the delete older 90 days powershell script file. (You can use and reference powershare file from [here](./delete-dhcp-scopes-auto-90days.ps1))
 
 3. Create service account and grant permission for Windows Task Scheduler.
     * Create sevice account
