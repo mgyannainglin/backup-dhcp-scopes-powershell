@@ -38,3 +38,6 @@
 
     ![backup-result](./images/backup-scopes01-final-result.png)
 
+## Auto Clean after 90 days backup
+
+Please do the above same way with dhcp scope backup taks to create new Task scheduler.
