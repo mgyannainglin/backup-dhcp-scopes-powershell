@@ -11,12 +11,14 @@
     ![create svc account](./images/svc-create.png "Create Service Account for Task scheduler")
 
     * Grant Windows Administrator Permission
+
     ![create svc account](./images/grant-permission.png "Grant permission for Service Account which was created previously")
 
 
 4. Then create windows Task scheduler for respective powershell files.
 
     *  Create a new task.
+
         ![create new task](./images/backup-scopes01.png)
 
     * Configure Schedule Time for task.
@@ -30,9 +32,9 @@
 
         ![Action for backup scope](./images/backup-scopes01-action.png)
     * Choose option for "Run whether user is logined or not" and type service account password which was created previously.
+
         ![choose-where-user-is-logined-in-or-not](./images/backup-scopes-auto-run-login-or-not.png)
 5. If the trigger run automatically the backup task will start and you will see back folder under your predefined location.
 
     ![backup-result](./images/backup-scopes01-final-result.png)
-
 
